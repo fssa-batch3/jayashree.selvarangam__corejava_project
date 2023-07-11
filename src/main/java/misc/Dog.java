@@ -28,9 +28,6 @@ public class Dog {
 	        this.color = color;
 	    }
 
-		
-			
-			
 		    public static void main(String[] args) {
 		        // Create two Dog objects
 		        Dog dog1 = new Dog(true, "purple");
