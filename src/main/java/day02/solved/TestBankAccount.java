@@ -1,5 +1,20 @@
-package day02.solved;
-
-public class TestBankAccount {
-
-}
+////package day02.solved;
+////
+////
+////public class TestBankAccount {
+////
+////	public static void main(String[] args) {
+////		
+////		//create Account
+////        BankAccount acct1 = new BankAccount();
+////        acct1.setAccNo("0211");
+////        acct1.setName( "Jayashree" );
+////        acct1.setBalance(1000);
+//// 
+////        System.out.println(acct1.getAccNo());
+////        System.out.println(acct1.getName());
+////        System.out.println(acct1.getBalance());
+////
+////	}
+////
+//}

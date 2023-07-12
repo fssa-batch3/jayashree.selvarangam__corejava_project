@@ -14,7 +14,4 @@ public class AccessModifier {
 	        System.out.println(obj.c);
 	        System.out.println(d);
 	    }
-
-	
-	
 }  
