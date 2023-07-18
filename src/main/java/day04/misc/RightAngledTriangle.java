@@ -1,7 +1,7 @@
 package day04.misc;
 
 public class RightAngledTriangle extends Rectangle{
-	protected double c;
+protected double c;
 	
 	public RightAngledTriangle(double a, double b, double c) throws Exception {
 		super(3, c);
@@ -9,11 +9,11 @@ public class RightAngledTriangle extends Rectangle{
 	}
 	@Override
 	public double calculateArea() {
-		 return super.calculateArea()/2;
-	}
-	
+		  return (this.c * this.c) / 2.0;
+		}
+	@Override
 	public double calculatePerimeter() {
-		   return  super.calculateArea()/2 + this.c;
-	}
-	
+		  double perimeter = super.calculateArea();
+		  return perimeter + this.c;
+		}	
 }
