@@ -7,10 +7,10 @@ public static void main(String[] args) {
 		// AXIS
 		AxisATM axis1 = new AxisATM();
 		
-		axis1.deposit("12E45", 45000.00);
+		axis1.deposit("12E28245", 45000.00);
 		
 		try {
-			axis1.withdraw("12E45", 1000);
+			axis1.withdraw("12E28245", 1000);
 			System.out.println(axis1.getBalance());
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
